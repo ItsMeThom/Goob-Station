@@ -108,6 +108,7 @@
   - WeaponPistolCHIMP
   - AnomalySynchronizerCircuitboard
   - AnomalyVesselExperimentalCircuitboard
+  - ClothingOuterSuitAnomalyEnv # Goobstation
   technologyPrerequisites:
   - BasicAnomalousResearch
 

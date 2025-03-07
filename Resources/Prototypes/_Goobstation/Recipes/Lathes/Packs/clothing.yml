@@ -17,3 +17,8 @@
   recipes:
   - ClothingUniformJumpsuitCasualCentcom
   - ClothingUniformJumpsuitCasualSyndicate
+
+- type: latheRecipePack
+  id: ClothingAnomalousEnvSuitScience # and here
+  recipes:
+  - ClothingOuterSuitAnomalyEnv

@@ -1,0 +1,28 @@
+- type: entity
+  parent: [ ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing, ClothingOuterBaseToggleable ]
+  id: ClothingOuterSuitAnomalyEnv
+  name: anomalous environment suit
+  description: "A suit favored by ecologists studying alien worlds and zones. Does little against the horrors of the human world."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/OuterClothing/Suits/anom.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.40
+        Cold: 0.40
+        Radiation: 0.40
+        Caustic: 0.40
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: Clothing
+    sprite: _Goobstation/Clothing/OuterClothing/Suits/anom.rsi
+  - type: GroupExamine
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHatHoodAnom
+  - type: ProtectedFromStepTriggers
+    slots: WITHOUT_POCKET

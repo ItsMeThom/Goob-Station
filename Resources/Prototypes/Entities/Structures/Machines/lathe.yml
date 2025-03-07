@@ -203,6 +203,7 @@
     #- SurgeryStatic
     dynamicPacks:
     - AdvancedTools
+    - ClothingAnomalousEnvSuitScience
     #- ScienceEquipment - Goobstation - Moved to Scifab
     #- ScienceExplosives - Goobstation - Moved to Scifab
     - ScienceClothing

@@ -1,0 +1,25 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodAnom
+  name: radiation hood
+  description: A hood of the anomalous environment suit.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Head/Hoods/anom.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Head/Hoods/anom.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.85
+        Cold: 0.85
+        Radiation: 0.85
+        Caustic: 0.85
+  - type: IdentityBlocker
+  - type: BreathMask
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide

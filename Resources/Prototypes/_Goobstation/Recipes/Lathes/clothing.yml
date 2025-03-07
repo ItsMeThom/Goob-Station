@@ -43,3 +43,13 @@
   parent: BaseJumpsuitRecipe
   id: ClothingUniformJumpsuitCasualSyndicate
   result: ClothingUniformJumpsuitCasualSyndicate
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingOuterSuitAnomalyEnv
+  result: ClothingOuterSuitAnomalyEnv
+  completetime: 10
+  materials:
+    Cloth: 400
+    Plastic: 200
+    Plasma: 200
